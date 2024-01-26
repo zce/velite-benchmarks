@@ -5,6 +5,7 @@
     "gatsby",
     "next-contentlayer",
     "next-remark",
+    "next-velite",
     "scripts/*"
   ]
 }

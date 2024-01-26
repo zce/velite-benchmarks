@@ -32,6 +32,11 @@ export function testsConfig(rootDir: string): TestConfig {
     runs: 5,
     tests: [
       {
+        name: "Next.js + Velite",
+        path: path.join(rootDir, "next-velite"),
+        cache: [".next", ".velite"],
+      },
+      {
         name: "Next.js + Contentlayer",
         path: path.join(rootDir, "next-contentlayer"),
         cache: [".next", ".contentlayer"],
